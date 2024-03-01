@@ -15,9 +15,9 @@ Pedro Henrique Vilela
 - Estilos gerais de todas as páginas foram aplicados no início.
 
 ## Inspirações
-<a href="https://programadorbr.com/">https://programadorbr.com/<a>
+<a href="https://openai.com/sora">https://openai.com/sora<a>
 
-meu curso do <a href="https://openai.com/sora">https://openai.com/sora<a>
+meu curso de programação:  <a href="https://programadorbr.com/">https://programadorbr.com/<a>
 
 ## Link de Hospedagem
 <a href="https://etufbphv.netlify.app/"><img src="Icones/Logo.png" alt="logo" width="100"> </a>
