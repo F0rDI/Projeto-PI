@@ -15,7 +15,7 @@ Pedro Henrique Vilela
 - Estilos gerais de todas as páginas foram aplicados no início.
 
 ## Link de Hospedagem
-<img href="https://etufbphv.netlify.app/" src="Icones/Logo.png" alt="logo" width="200" >
+<img src="Icones/Logo.png" alt="logo" width="200" ><a href="https://etufbphv.netlify.app/" target="_blank" alt="logo"></a>
 
 
 ## Licença
