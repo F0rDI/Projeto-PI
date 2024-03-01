@@ -21,7 +21,3 @@ meu curso do <a href="https://openai.com/sora">https://openai.com/sora<a>
 
 ## Link de Hospedagem
 <a href="https://etufbphv.netlify.app/"><img src="Icones/Logo.png" alt="logo" width="100"> </a>
-
-
-## Licença
-Este projeto está licenciado sob a MIT License - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
