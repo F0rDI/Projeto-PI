@@ -14,7 +14,7 @@ Pedro Henrique Vilela
 - Estilos gerais de todas as páginas foram aplicados no início.
 
 ## Link de Hospedagem
-[![Site](Icones/logo.png)](https://etufbphv.netlify.app/)
+[![Site](Icones/Logo.png)](https://etufbphv.netlify.app/)
 
 ## Licença
 Este projeto está licenciado sob a MIT License - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
