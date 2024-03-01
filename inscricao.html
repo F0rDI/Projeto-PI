@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscricao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/Inscricao.css">
+    <link rel="shortcut icon" href="/Icones/Logo.png" type="image/x-icon">
+</head>
+
+    <header> 
+        <nav>
+            <div class="menu">
+                <img class="logo" src="/Icones/Logo.png" alt="Logo">
+                    <ul class="links">
+                        <li class="links-2"><a href="index.html">inicio</a></li>
+                        <li class="links-2"><a href="docentes.html">Docentes</a></li>
+                        <li><a href="local.html">Local</a></li>
+                        <li><a href="programacao.html">Programação</a></li>
+                    </ul>
+                <a class="botao-inscri" href="inscricao.html" id="pagina-principal">Inscrição</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="endereco">
+            <form action="agradecimento.html" method="get">
+                <div class="flex">
+                    <div class="endereco-box">
+                        <h1 class="titulo">Endereço</h1>
+                        <div class="endereco-txt">
+                            <div class="campo">
+                                <label for="endereco">Endereço:</label>
+                                <input required type="text" id="endereco" name="endereco" class="end">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="numero">Numero:</label>
+                                <input type="number" class="numero" id="numero" name="numero" required>
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="bairro">Bairro:</label>
+                                <input type="text" class="bairro" id="bairro" name="bairro" placeholder="rua example">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="cidade">Cidade:</label>
+                                <input required type="text" id="cidade" name="cidade">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="estado">Estado:</label>
+                                <select required id="estado" name="estado">
+                                    <option value="">Selecione o Estado</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                    </div> <!--fecha endereco-box-->
+                    <div class="perguntas">
+                        <h1 class="titulo">Perguntas</h1>
+                        <div class="perguntas-txt">
+                            <div class="campo">
+                                <label>Idade:</label>
+                                <input required type="number" class="idade" id="idade" name="idade" maxlength="3">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="email">Email:</label>
+                                <input required type="email" id="email" name="email" class="email" placeholder="example@example.com">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="telefone">Telefone:</label>
+                                <input required type="tel" class="telefone" id="telefone" name="telefone" placeholder="(99) 99999-9999">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="cpf">CPF:</label>
+                                <input  type="text" id="cpf" name="cpf" class="profissao" required pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}" placeholder="xxx.xxx.xxx-xx">
+                            </div> <!--fecha campo-->
+                            <div class="campo">
+                                <label for="data">Data de Nacimento:</label>
+                                <input required type="date" class="profissao" id="data" name="data">
+                            </div> <!--fecha campo-->
+                            <div class="check-box">
+                                <input required type="radio" class="profissao" name="box[]" id="box">
+                                <label>Estudante</label>
+                                <input required type="radio" class="profissao" name="box[]" id="box">
+                                <label>Não Estudante</label>
+                            </div> <!--fecha check-box-->
+                        </div>
+                    </div>
+                </div>
+                <div class="check-horarios">
+                    <h1>Quais Dias você Participará?</h1>
+                    <div class="check-text">
+                        <input type="checkbox" class="horario" name="box[]" id="box">
+                        <label>Dia 1: 09:00 - 10:30</label>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox" class="horario" name="box[]" id="box">
+                        <label>Dia 2: 09:00 - 11:00</label>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox" class="horario" name="box[]" id="box">
+                        <label>Dia 3: 09:00 - 18:00</label>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox" class="horario" name="box[]" id="box">
+                        <label>Dia 4: 09:30 - 14:30 - 16:30 - 17:00 - 18:30</label>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox" class="horario" name="box[]" id="box">
+                        <label>Dia 1: 09:00 - 18:00</label>
+                    </div>
+                </div>
+                <div class="check-termos">
+                    <input required type="checkbox" class="horario" name="box[]" id="box">
+                    <label>Concordo com os termos de uso!</label>
+                    <a class="termos" href="termos-uso.html">Saiba mais.</a>
+                </div>
+                <div class="btn">
+                    <button type="reset" class="botao">Limpar</button>
+                    <button class="botao">Enviar</button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div class="contato-txt">
+                <ul class="rod">
+                    <li><a href="tel:+553499479238"><img src="/Icones/Telefone.png" alt="Zap">(34) 9947-9238</a>
+                    </li>
+                    <li><img src="/Icones/e-mail.png" alt="Email"> <a href="mailto:pedro.vilela1@ufu.br" >pedro.vilela1@ufu.br</a></li>
+                    <li class="git-hub"><img src="/Icones/logo-github.png" alt="GitHub"><a href="https://github.com/F0rDI" target="_blank">F0rDI</a></li>
+                    <li><a href="https://www.instagram.com/pedro.h5vilela/" target="_blank">@PedroVilela</a></li>
+                </ul>
+            </div> <!--fecha contato-txt-->
+        </div> <!--fecha rodape-->
+    </footer>
+    
+</body>
+</htm
