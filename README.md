@@ -1,5 +1,5 @@
 User
-# Pedro Vilela Repository
+# Pedro Vilela
 
 ## Descrição
 Este repositório contém o projeto realizado para o trabalho.
