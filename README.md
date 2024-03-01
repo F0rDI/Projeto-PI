@@ -15,6 +15,7 @@ Pedro Henrique Vilela
 
 ## Link de Hospedagem
 [![Site](Icones/Logo.png)](https://etufbphv.netlify.app/)
+<img src="Icones/Logo.png" alt="logo" width="200" height="150">
 
 ## Licença
 Este projeto está licenciado sob a MIT License - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
