@@ -16,6 +16,7 @@ Pedro Henrique Vilela
 
 ## Inspirações
 [Inspiração-Site](https://openai.com/sora)
+
 [imagens-Professores](https://site112.com/gerador-imagem-lorem-ipsum)
 
 ## Link de Hospedagem
