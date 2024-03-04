@@ -15,11 +15,14 @@ Pedro Henrique Vilela
 - Estilos gerais de todas as páginas foram aplicados no início.
 
 ## Inspirações
-<a href="https://openai.com/sora">https://openai.com/sora<a>
-
-meu curso de programação:  <a href="https://programadorbr.com/">https://programadorbr.com/<a>
+[Inspiração-Site](https://openai.com/sora)
+[imagens-Professores](https://site112.com/gerador-imagem-lorem-ipsum)
 
 ## Link de Hospedagem
-<a href="https://etufbphv.netlify.app/"><img src="Icones/Logo.png" alt="logo" width="100"> </a>
+
+[Site](https://etufbphv.netlify.app/)
 
 ## Redes sociais
+
+[Instagram](https://www.instagram.com/pedro.h5vilela/)
+[GitHub](https://github.com/F0rDI)
